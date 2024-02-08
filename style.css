@@ -1,0 +1,181 @@
+/* Notes to Self 
+  '*' refers to whole page for styling
+  'body' refers to body of html page
+*/
+
+/* GENERAL */
+
+/* Import font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Style for whole page */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for body tag in index.html */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Style for the html tag in index.html */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style for the p tag in index.html */
+p {
+  color: rgb(85, 85, 85);
+}
+
+/* TRANSITION */
+
+/* Style for Links and Buttons */
+a,
+.btn {
+  transition: all 300ms ease;
+}
+
+/* DESKTOP NAV */
+
+/* Style for nav tag and navigation links */
+nav,
+.nav-links {
+  display: flex;
+}
+
+/* Style for only nav tags */
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+/* Style for navigation links */
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+/* Style for links */
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+/* Style for hovering over links */
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rhb(181, 181, 181);
+}
+
+/* Style for logo class */
+.logo {
+  font-size: 2rem;
+}
+
+/* Style for hovering over logo */
+.logo:hover {
+  cursor: default;
+}
+
+/* HAMBURGER MENU */
+
+/* Style for hamburger-nav id */
+#hamburger-nav {
+  display: none;
+}
+
+/* Style for hamburger-menu class */
+.hamburger-menu {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for hamburger-icon class */
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+}
+
+/* Style for span tags in the hamburger-icon class */
+.hamburger-icon span {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transition: all 0.3 ease-in-out;
+}
+
+/* Style for the menu-links class */
+.menu-links {
+  position: absolute;
+  top: 100%;
+  right: 0%;
+  background-color: white;
+  width: fit-content;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3 ease-in-out;
+}
+
+/* Style for the links in the menu-links class */
+.menu-links a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
+
+/* Style for elements in the class menu-links list */
+.menu-links li {
+  list-style: none;
+}
+
+/* Style for the menu-links class when open */
+.menu-links.open {
+  max-height: 300px;
+}
+
+/* Style for the hamburger-icon class when open for first child */
+.hamburger-icon.open span:first-child {
+  transform: rotate(45deg) translate(10px, 5px);
+}
+
+/* Style for hamburger-icon class when open for second child */
+.hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+/* Style for hamburger-icon class when open for last child */
+.hamburger-icon.open span:last-child {
+  transform: rotate(-45deg) translate(10px, -5px);
+}
+
+/* Style for hamburger-icon class to revert first child */
+.hamburger-icon span:first-child {
+  transform: none;
+}
+
+/* Style for hamburger-icon class to revert first child */
+.hamburger-icon span:first-child {
+  opacity: 1;
+}
+
+/* Style for hamburger-icon class to revert first child */
+.hamburger-icon span:first-child {
+  transform: none;
+}
+
+/* SECTIONS */
