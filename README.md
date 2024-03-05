@@ -22,8 +22,8 @@ Contributions and feedback are always welcome! If you have ideas for improvement
 ## Contact
 Feel free to reach out to me if you have any questions, feedback, or would like to collaborate on projects. You can contact me via email or connect with me on LinkedIn:
 
-- **Email:** [your.email@example.com](mailto:jamkocak88@gmail.com)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/james-kocak/)
+- **Email:** [jamkocak88@gmail.com](mailto:jamkocak88@gmail.com)
+- **LinkedIn:** [https://www.linkedin.com/in/james-kocak/](https://www.linkedin.com/in/james-kocak/)
 
 
 ## License
