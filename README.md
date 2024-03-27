@@ -14,7 +14,7 @@ Welcome to my Portfolio repository! This is where I'm building and hosting my pe
 The portfolio website is built using HTML, CSS, and JavaScript. It's designed to be responsive and visually appealing, showcasing my projects, skills, and experiences. I'm constantly updating and improving it, so stay tuned for new features and enhancements!
 
 ## Usage
-To view the current version of my portfolio, simply visit [my portfolio website](WORK IN PROGRESS). Feel free to explore the projects I've showcased and learn more about my skills and experiences. If you have any feedback or suggestions, please don't hesitate to [contact me](#contact).
+To view the current version of my portfolio, simply visit [my portfolio website](https://james-kocak.netlify.app/). Feel free to explore the projects I've showcased and learn more about my skills and experiences. If you have any feedback or suggestions, please don't hesitate to [contact me](#contact).
 
 ## Contributing
 Contributions and feedback are always welcome! If you have ideas for improvements, found any issues, or want to contribute in any way, please feel free to [open an issue](../../issues) or [submit a pull request](../../pulls).
