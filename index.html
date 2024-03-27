@@ -75,7 +75,7 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn Profile"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/james-kocak/'"
+            onclick="openLinkInNewTab('https://www.linkedin.com/in/james-kocak/', event)"
           />
 
           <!-- GitHub -->
@@ -83,7 +83,7 @@
             src="./assets/github.png"
             alt="My GitHub Profile"
             class="icon"
-            onclick="location.href='https://github.com/Jokocak'"
+            onclick="openLinkInNewTab('https://github.com/Jokocak', event)"
           />
         </div>
       </div>
@@ -94,13 +94,6 @@
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/about-pic.png"
-            alt="Profile Picture"
-            class="about-pic"
-          />
-        </div>
         <div class="about-details-container">
           <div class="about-containers">
 
@@ -112,7 +105,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>2+ Years <br />Software Engineer</p>
+              <p>3+ Years <br />Coursework at NCSU <br />(Projects are listed below!)</p>
             </div>
 
             <!-- Education Container -->
@@ -122,12 +115,14 @@
                 alt="experience-icon"
                 class="icon"
               />
-              <h3>Experience</h3>
+              <h3>Education</h3>
               <p>B.S. Computer Science at North Carolina State University</p>
             </div>
           </div>
           <div class="text-container">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, sequi eos non quis nemo laudantium earum ut reprehenderit sint aliquam illum amet rerum provident deleniti velit ex illo saepe quo eligendi libero aspernatur soluta dignissimos quae delectus? Quas molestiae soluta distinctio. Vel earum quas porro asperiores recusandae maiores vitae nam!</p>
+            <p>
+              Hello there! I'm James, a Computer Science student at North Carolina State University in my third year. I thrive on problem-solving and gaming, seeking to blend my tech prowess with my passion for challenges. At NCSU, I'm delving into algorithms, languages, and software development, always hungry to learn more. When not coding, you'll find me immersed in the world of video games, exploring new adventures and solving all different types of problems! Currently on the lookout for software engineering internships, I'm eager to apply my skills in a professional setting and collaborate on innovative projects. Let's connect and chat about tech, gaming, or whatever sparks your interest!
+            </p>
           </div>
         </div>
       </div>
@@ -264,19 +259,6 @@
                 </div>
               </article>
 
-              <!-- Hibernate Skill -->
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Hibernate</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
               <!-- Spring Framework Skill -->
               <article>
                 <img
@@ -307,6 +289,8 @@
         </div>
       </div>
 
+      <!-- INSERT PROGRAMMING LANGUAGES HERE!!! -->
+
       <!-- Arrow to move down to Experience Section -->
       <img
         src="./assets/arrow.png"
@@ -324,48 +308,48 @@
         <div class="about-containers">
 
         <!-- Project 1 -->
-        <div class="details-container color-container">
+        <!-- <div class="details-container color-container">
           <div class="article-container">
             <img src="./assets/project-1.png" alt="Project 1" class="project-img"/>
           </div>
-          <h2 class="experience-sub-title project-title">Project One</h2>
+          <h2 class="experience-sub-title project-title">Connect 4 Full-Stack Project</h2>
           <div class="btn-container">
             <button
               class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com'"
+              onclick="openLinkInNewTab('https://github.com/Jokocak', event)"
             >
-              GitHub
+              GitHub Repository
             </button>
 
             <button
               class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com'"
+              onclick="openLinkInNewTab('https://github.com/Jokocak', event)"
             >
               Live Demo
             </button>
           </div>
-        </div>
+        </div> -->
 
         <!-- Project 2 -->
         <div class="details-container color-container">
           <div class="article-container">
             <img src="./assets/project-2.png" alt="Project 2" class="project-img"/>
           </div>
-          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <h2 class="experience-sub-title project-title">Advanced Encryption Standard Project</h2>
           <div class="btn-container">
             <button
               class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com'"
+              onclick="openLinkInNewTab('https://github.com/Jokocak/AdvancedEncryptionStandardProject.git', event)"
             >
-              GitHub
+              GitHub Repository
             </button>
 
-            <button
+            <!-- <button
               class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com'"
+              onclick="openLinkInNewTab('https://github.com/Jokocak', event)"
             >
               Live Demo
-            </button>
+            </button> -->
           </div>
         </div>
 
@@ -374,21 +358,21 @@
           <div class="article-container">
             <img src="./assets/project-3.png" alt="Project 3" class="project-img"/>
           </div>
-          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <h2 class="experience-sub-title project-title">Shortest Path Project</h2>
           <div class="btn-container">
             <button
               class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com'"
+              onclick="openLinkInNewTab('https://github.com/Jokocak/ShortestPathProject.git', event)"
             >
-              GitHub
+              GitHub Repository
             </button>
 
-            <button
+            <!-- <button
               class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com'"
+              onclick="openLinkInNewTab('https://github.com/Jokocak', event)"
             >
               Live Demo
-            </button>
+            </button> -->
           </div>
         </div>
 
@@ -417,7 +401,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:jamkocak88@gmail.com"></a>Email</p>
+          <p><a href="mailto:jamkocak88@gmail.com">jamkocak88@gmail.com</a></p>
         </div>
 
         <!-- LinkedIn -->
@@ -427,15 +411,27 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/james-kocak/"></a>LinkedIn</p>
+          <p><a href="https://www.linkedin.com/in/james-kocak/">LinkedIn</a></p>
         </div>
-
       </div>
     </section>
 
     <!-- Footer -->
     <footer>
-      
+      <!-- Navigation Bar for Bottom of Page -->
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Copyright Symbol -->
+      <p>Copyright &#169; 2024 James Kocak. All Rights Reserved.</p>
     </footer>
 
     <!-- Link JavaScript scripts -->
