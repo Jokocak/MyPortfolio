@@ -14,6 +14,44 @@ function toggleMenu() {
 
   // Toggle the 'open' class on the hamburger element to show/hide it
   icon.classList.toggle("open");
+
+  if (icon) {
+  }
+}
+
+/**
+ * This function toggles the styling for the menu links in the burger menu
+ * so that they are not visible when the burger menu is closed.
+ */
+function toggleStyle() {
+  // Gets the burger menu
+  var menuLinks = document.querySelector(".menu-links");
+
+  // Gets the list of burger menu links
+  var menuLinksList = document.querySelectorAll(".menu-links li");
+
+  // Checks if the menu is being shown or not
+  if (menuLinks.classList.contains("show")) {
+    // Removes show class from the class list
+    menuLinks.classList.remove("show");
+
+    // Turns off all styling
+    menuLinks.style.backgroundColor = "";
+    menuLinks.style.border = "none";
+    menuLinksList.forEach(function (item) {
+      item.style.border = "none";
+    });
+  } else {
+    // Adds show class to the class list
+    menuLinks.classList.add("show");
+
+    // Turns on all styling
+    menuLinks.style.backgroundColor = "white";
+    menuLinks.style.border = "2px solid black";
+    menuLinksList.forEach(function (item) {
+      item.style.border = "2px solid black";
+    });
+  }
 }
 
 /**
