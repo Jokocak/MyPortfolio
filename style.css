@@ -407,6 +407,16 @@ article .icon {
   height: 90%;
 }
 
+.project-img-2 {
+  width: 50%;
+  height: 50%;
+}
+
+.project-img-3 {
+  width: 90%;
+  height: 50%;
+}
+
 .project-title {
   margin: 1rem;
   color: black;
