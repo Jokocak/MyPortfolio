@@ -16,9 +16,6 @@ The portfolio website is built using HTML, CSS, and JavaScript. It's designed to
 ## Usage
 To view the current version of my portfolio, simply visit [my portfolio website](https://james-kocak.netlify.app/). Feel free to explore the projects I've showcased and learn more about my skills and experiences. If you have any feedback or suggestions, please don't hesitate to [contact me](#contact).
 
-## Contributing
-Contributions and feedback are always welcome! If you have ideas for improvements, found any issues, or want to contribute in any way, please feel free to [open an issue](../../issues) or [submit a pull request](../../pulls).
-
 ## Contact
 Feel free to reach out to me if you have any questions, feedback, or would like to collaborate on projects. You can contact me via email or connect with me on LinkedIn:
 
